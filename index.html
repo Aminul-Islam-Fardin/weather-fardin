@@ -6,18 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather Widget for Fardin's Notion</title>
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
   <style>
     body {
       background: #2f3437;
     }
+
+    .weatherwidget-io {
+      border-radius: 10px;
+    }
   </style>
 </head>
 
-<a class="weatherwidget-io" href="https://forecast7.com/en/22d3691d83/panchlaish/" data-label_1="CHATTOGRAM" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-basecolor="rgba(0, 0, 0, 0.3)" data-shadow="rgba(0, 96, 109, 0.3)" data-accent="rgba(0, 0, 0, 0.70)" data-textcolor="#ffffff" data-highcolor="#ffffec" data-lowcolor="#e6fefe" data-suncolor="#ffffff" data-mooncolor="rgba(250, 250, 240, 0.89)" data-cloudcolor="rgba(255, 255, 255, 0.93)" data-cloudfill="#ffffff" data-raincolor="rgba(0, 219, 255, 0.66)" data-snowcolor="#ffffff" >CHATTOGRAM WEATHER</a>
+<a class="weatherwidget-io" href="https://forecast7.com/en/22d3691d83/panchlaish/" data-label_1="CHATTOGRAM"
+  data-label_2="WEATHER" data-font="Fira Sans" data-icons="Climacons Animated" data-days="5"
+  data-basecolor="rgba(0, 0, 0, 0.3)" data-shadow="rgba(0, 96, 109, 0.3)" data-accent="rgba(0, 0, 0, 0.70)"
+  data-textcolor="#ffffff" data-highcolor="#ffffec" data-lowcolor="#e6fefe" data-suncolor="#ffffff"
+  data-mooncolor="rgba(250, 250, 240, 0.89)" data-cloudcolor="rgba(255, 255, 255, 0.93)" data-cloudfill="#ffffff"
+  data-raincolor="rgba(0, 219, 255, 0.66)" data-snowcolor="#ffffff">CHATTOGRAM WEATHER</a>
 <script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+  !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
 </script>
 
-  </body>
+</body>
+
 </html>
